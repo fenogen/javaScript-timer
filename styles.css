@@ -1,0 +1,32 @@
+/* ///////////////////////////////////////////////               GENERAL */
+
+html {
+  box-sizing: border-box;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.timer {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 50px;
+  background-color: rgb(80, 77, 77);
+}
+
+.field {
+  width: 100px;
+  background-color: greenyellow;
+  border-radius: 10px;
+  text-align: center;
+  color: blue;
+}
+
+.value {
+  color: red;
+  font-weight: 700;
+}
